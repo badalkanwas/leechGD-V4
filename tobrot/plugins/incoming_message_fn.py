@@ -97,7 +97,7 @@ async def incoming_message_f(client, message):
     else:
         await i_m_sefg.edit_text(
             "Weh **Jancuk!!** Apa yang mau kamu leech?"
-            f"<b>API Error</b>: {cf_name}"
+            f" "
         )
 #
 async def incoming_gdrive_message_f(client, message):
@@ -152,7 +152,7 @@ async def incoming_gdrive_message_f(client, message):
     else:
         await i_m_sefg.edit_text(
             "Weh **Jancuk!!** Apa yang mau kamu leech?"
-            f"<b>API Error</b>: {cf_name}"
+            f" "
         )
 
 
@@ -207,7 +207,7 @@ async def incoming_youtube_dl_f(client, message):
     else:
         await i_m_sefg.edit_text(
             "Weh **Jancuk!!** Apa yang mau kamu leech?"
-            f"<b>API Error</b>: {cf_name}"
+            f" "
         )
 #playlist
 async def g_yt_playlist(client, message):
