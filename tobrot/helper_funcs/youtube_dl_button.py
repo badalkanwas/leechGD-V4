@@ -177,7 +177,7 @@ async def youtube_dl_call_back(bot, update):
         user_id = update.from_user.id
         #
         print(tmp_directory_for_each_user)
-        G_DRIVE = False
+        G_DRIVE = True
         txt = update.message.reply_to_message.text
         print(txt)
         g_txt = txt.split()
